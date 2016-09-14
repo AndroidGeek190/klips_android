@@ -1,0 +1,70 @@
+<LinearLayout
+    android:id="@+id/left_drawer"
+    android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:weightSum="1"
+    android:clickable="true"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/side_menu_bg"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"/>
+        <com.erginus.klips.Commons.CircularImageView
+            android:id="@+id/profile_img"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:padding="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile_photo" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Guest"
+
+                    android:textColor="@android:color/white"
+                    android:id="@+id/txt_usrName"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16dp" />
+              <!--  <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="nafseyat@gmail.com"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/txt_userEmail"
+                    android:textSize="13dp" />-->
+            </LinearLayout>
+            <!--<ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/edit"
+                android:layout_weight="1"
+                android:layout_gravity="right|center_vertical"
+                android:id="@+id/imageView_edit"/>-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

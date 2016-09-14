@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="330dp"
+              android:layout_height="160dp"
+              android:gravity="center|center_vertical"
+              android:padding="10dp"
+              android:background="@color/lightpurple">
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"
+        android:text="Share Via-"
+       android:id="@+id/textView2"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:id="@+id/ll_facebook"
+                      android:orientation="vertical">
+        <!--    <com.facebook.login.widget.
+                android:id="@+id/login_button"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="right"
+
+                android:background="@drawable/button_fb"
+                android:layout_marginBottom="30dp" />-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_facebook_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageView3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="facebook"
+            android:id="@+id/textView3"/>
+            </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="10dp"
+                      android:id="@+id/ll_twitter"
+                      android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/home_twitter_icon"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:text="twitter"
+                android:id="@+id/textView5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:id="@+id/ll_google"
+                      android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/home_google_icon"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:text="google+"
+                android:id="@+id/textView4"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+  <!--  <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Ok"
+        android:background="@drawable/list_back"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:id="@+id/textView_camera"/>-->
+</LinearLayout>

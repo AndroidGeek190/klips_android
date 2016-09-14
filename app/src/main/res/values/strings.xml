@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Klips</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="album_prompt">Select Album</string>
+    <string name="artist_prompt">Select Artist</string>
+    <string name="country_prompt">Select Country</string>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This app needs camera permission.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="title_activity_artist_detail">ArtistDetailActivity</string>
+    <string name="title_activity_quote_detail">QuoteDetailActivity</string>
+    <string name="title_activity_image_detail">ImageDetailActivity</string>
+    <string name="title_activity_song_detail">SongDetailActivity</string>
+    <string name="title_activity_video_detail">VideoDetailActivity</string>
+    <string name="title_activity_play_list">PlayList</string>
+    <string name="invalid_email">This email address is invalid</string>
+
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="email_required">Email is required</string>
+    <string name="pswrd_required">Password is required</string>
+    <string name="phone_required">Phone Number is too short</string>
+    <string name="userName_required">User Name is required</string>
+    <!--facebook button-->
+    <string name="com_facebook_loginview_log_in_button_long"> </string>
+    <string name="com_facebook_share_button_text"> </string>
+    <string name="com_facebook_loginview_log_out_button"> </string>
+    <string name="title_activity_upload_song">UploadSongActivity</string>
+    <string name="title_activity_upload_video">UploadVideoActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_add_quote">AddQuoteActivity</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_quote">QuoteActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="full_image">fullActivity</string>
+    <string name="title_activity_search_avtivity">SearchAvtivity</string>
+    <string name="title_activity_full_list">FullListActivity</string>
+
+</resources>

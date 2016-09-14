@@ -1,0 +1,53 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <!-- Login Button in the same style as LikeView -->
+    <LinearLayout
+        android:id="@+id/btnLoginToLike"
+        android:background="@drawable/com_facebook_button_like_background"
+        android:layout_width="100dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+      >
+
+        <ImageView
+            android:src="@drawable/com_facebook_button_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="7.5dp"
+            android:layout_marginBottom="7.5dp"/>
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:text="Login  "
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.facebook.share.widget.LikeView
+        xmlns:fb="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="20dp"
+        android:id="@+id/likeView"
+        fb:com_facebook_login_text=""
+        fb:com_facebook_logout_text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

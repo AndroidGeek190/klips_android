@@ -1,0 +1,201 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:layout_weight="1"
+    android:background="@drawable/bg_all">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+                         <LinearLayout
+                        android:padding="10dp"
+                        android:background="@drawable/box_blur"
+                        android:id="@+id/ll_form"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="1"
+                       android:layout_marginTop="70dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="50dp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="18dp"
+                            android:textColor="#ffffff"
+                            android:text="Klips"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textSize="12dp"
+                            android:text="Thank you for taking the time in writing to us.
+Your comments will be submitted to our team at" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="#ffffff"
+                        android:drawableLeft="@drawable/mail"
+                        android:drawablePadding="15dp"
+                        android:text="info@erginus.com"
+                        android:textSize="12dp"/>
+
+                    </LinearLayout>
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/cv"
+        android:layout_margin="16dp"
+        android:src= "@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ll_form"
+        android:layout_marginTop="10dp"
+        android:weightSum="5"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Please enter the details below and submit"
+            android:id="@+id/textView9"
+
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/edt_userFname"
+            android:hint="Name"
+            android:drawableLeft="@drawable/user_name"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:drawablePadding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:imeOptions="actionNext"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:ems="10"
+            android:singleLine="true"
+            android:textColorHint="@android:color/white"
+            android:layout_below="@+id/profilePic"
+            android:layout_marginTop="10dp" />
+        <requestFocus/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/edt_email"
+            android:hint="Email"
+            android:drawablePadding="8dp"
+            android:paddingLeft="5dp"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:imeOptions="actionNext"
+            android:drawableLeft="@drawable/mail"
+            android:textColor="@android:color/white"
+            android:ems="10"
+            android:singleLine="true"
+            android:textColorHint="@android:color/white"
+            android:layout_marginTop="7dp"
+            />
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:drawableLeft="@drawable/phone_contact"
+             android:id="@+id/edt_contact"
+             android:hint="Phone Number(optional)"
+             android:drawablePadding="9dp"
+             android:paddingLeft="5dp"
+             android:layout_weight="1"
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+             android:imeOptions="actionNext"
+             android:inputType="number"
+             android:maxLength="10"
+             android:textColor="@android:color/white"
+             android:ems="10"
+             android:singleLine="true"
+             android:textColorHint="@android:color/white"
+             android:textSize="16sp"
+             android:layout_marginTop="7dp"
+
+             />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/edt_comments"
+            android:hint="Comments"
+            android:drawableLeft="@drawable/comments"
+            android:drawablePadding="9dp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:imeOptions="actionNext"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:scrollbars="vertical"
+            android:textColorHint="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/button_sbmt"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:drawableRight="@drawable/arrow_left"
+        android:drawablePadding="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center"
+
+        android:layout_below="@+id/ll_form"
+        android:layout_alignParentRight="true"
+
+        />
+</RelativeLayout>
+</ScrollView>

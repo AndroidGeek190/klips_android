@@ -1,0 +1,140 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_new"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/menu_box"
+       >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="Videos"
+            android:layout_weight="1"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/video_white"
+            android:id="@+id/text_video"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            />
+</LinearLayout>
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView6"
+            android:background="@drawable/line"
+           android:gravity="center"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:textColor="@color/darkpurple"
+            android:drawableLeft="@drawable/music_color"
+            android:drawablePadding="15dp"
+            android:text="Music"
+            android:layout_weight="1"
+            android:id="@+id/text_music" />
+</LinearLayout>
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/white"/>
+
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+     >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/darkpurple"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:text="Images"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/galry"
+            android:id="@+id/text_images" />
+</LinearLayout>
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView7"
+            android:background="@drawable/line"
+            android:layout_gravity="center_horizontal"
+            />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/darkpurple"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:text="Quotes"
+            android:drawableLeft="@drawable/feather"
+            android:drawablePadding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/text_quotes"
+             />
+                </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <com.erginus.klips.Commons.EndlessListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+
+        android:divider="@null"
+
+        />
+
+
+
+</LinearLayout>

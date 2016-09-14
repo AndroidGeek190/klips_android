@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+
+    tools:context=".SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:id="@+id/ll_navi"
+        android:background="@color/grey"
+        android:gravity="center_vertical"
+
+        >
+        <ImageView
+            android:id="@+id/imageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical|left"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/arrow_back"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:textSize="20sp"
+            android:gravity="center|center_vertical"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:id="@+id/toolbar_title" />
+        <ImageView
+            android:id="@+id/imageView_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical|left"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/home_icon"
+            />
+
+
+    </LinearLayout>
+
+
+    <include layout="@layout/content_full_list" />
+
+
+
+</LinearLayout>

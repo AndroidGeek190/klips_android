@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#cd3d42</color>
+    <color name="grey">#2c2c2c</color>
+    <color name="purple">#271115</color>
+    <color name="lightpurple">#412254</color>
+    <color name="status_bar">#232323</color>
+    <color name="tabsScrollColor">#6c3650</color>
+    <color name="lightBlue">#03a9f4</color>
+<color name="white">#ffffff</color>
+    <color name="darkpurple">#893d47</color>
+    <color name="dark">#381c4a</color>
+<color name="blue">#3b5998</color>
+    <color name="red_stro">#CC0033</color>
+</resources>

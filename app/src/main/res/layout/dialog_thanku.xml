@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="320dp"
+              android:layout_height="160dp"
+              android:gravity="center|center_vertical"
+              android:padding="8dp"
+             android:background="@color/grey">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="Thank you for taking the time in writing to us. "
+        android:id="@+id/textView2"
+        android:layout_margin="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="17dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="OK"
+        android:background="@drawable/round_blue"
+        android:layout_marginTop="25dp"
+        android:padding="7dp"
+        android:id="@+id/btn_ok"/>
+</LinearLayout>

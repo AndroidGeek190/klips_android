@@ -1,0 +1,16 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_all"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true">
+    <com.erginus.klips.Commons.EndlessListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:divider="@null"
+
+        />
+
+</LinearLayout>

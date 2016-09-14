@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:checked="true"
+            android:id="@+id/drawer_home"
+            android:icon="@drawable/mix"
+            android:title="Home"/>
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/about_us"
+            android:title="About Us" >
+        </item>
+
+
+        <item
+            android:id="@+id/drawer_artist"
+            android:icon="@drawable/artist"
+            android:title="Artists"/>
+
+        <item
+            android:id="@+id/drawer_myplaylist"
+            android:icon="@drawable/my_playlist"
+            android:title="My Playlists" >
+        </item>
+        <item
+            android:id="@+id/drawer_myfav"
+            android:icon="@drawable/my_favort"
+            android:title="My Favorites" >
+        </item>
+
+        <item
+            android:id="@+id/drawer_changePwd"
+            android:icon="@drawable/password"
+            android:title="Change Password" >
+        </item>
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/contact_us"
+            android:title="Contact Us" >
+        </item>
+
+        <item
+            android:id="@+id/drawer_faq"
+            android:icon="@drawable/notify"
+            android:title="Logout" >
+        </item>
+
+
+        <item
+            android:id="@+id/drawer_share"
+            android:icon="@drawable/share"
+            android:title="Share App" >
+        </item>
+    </group>
+
+
+</menu>

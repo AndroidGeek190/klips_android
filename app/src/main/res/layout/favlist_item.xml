@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="@drawable/box_trending"
+              android:layout_height="105dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+<RelativeLayout
+    android:layout_width="80dp"
+    android:layout_height="80dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/image_product"
+            android:adjustViewBounds="true"
+
+            android:isScrollContainer="true"
+            android:src="@drawable/justin"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/image"
+
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+
+        android:isScrollContainer="true"
+        android:src="@drawable/play_btn"/>
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="Baby - Single"
+            android:id="@+id/textView_title"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@android:color/white"
+            android:text="Justein Bieber"
+            android:maxLines="2"
+            android:id="@+id/textView_artist"
+            />
+    </LinearLayout>
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="85dp"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="5dp"
+
+            android:paddingTop="30dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingBottom="30dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/image_fav"
+            android:src="@drawable/minus"/>
+
+</LinearLayout>
+</LinearLayout>

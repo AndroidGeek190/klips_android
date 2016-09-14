@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center|center_vertical"
+              android:padding="10dp"
+              android:background="@color/lightpurple">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Please select the category first."
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+       android:id="@+id/textView2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Video"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/video_small"
+            android:drawablePadding="10dp"
+
+            android:id="@+id/video"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Music"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/audio_small"
+            android:drawablePadding="10dp"
+            android:id="@+id/music"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Quotes"
+            android:drawableLeft="@drawable/quote_small"
+
+            android:padding="10dp"
+
+            android:id="@+id/quotes"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Images"
+            android:padding="10dp"
+
+            android:drawableLeft="@drawable/galery_small"
+            android:drawablePadding="10dp"
+            android:id="@+id/image"
+            />
+    </LinearLayout>
+
+</LinearLayout>

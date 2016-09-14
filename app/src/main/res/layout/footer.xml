@@ -1,0 +1,122 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+
+    android:layout_marginBottom="7dp"
+
+    android:gravity="center_vertical|bottom"
+    android:background="@color/grey"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/justin"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView_albm"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="17dp"
+            android:textSize="13sp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="Baby - Single"
+            android:id="@+id/textView_title"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="15dp"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@android:color/white"
+            android:text="Justein Bieber"
+            android:id="@+id/textView_artist"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@android:color/white"
+            android:text="4.10"
+            android:id="@+id/textView_duration"
+            />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:src="@drawable/backward"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView_back"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:src="@drawable/play"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView_play"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:src="@drawable/forward"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView_forward"/>
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:src="@drawable/line"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView_line"/>-->
+      <!--  <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginBottom="10dp"
+                      android:orientation="horizontal">
+
+        <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/share"
+        android:scaleType="fitXY"
+
+
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView_share"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/my_favort"
+        android:scaleType="fitXY"
+
+        android:layout_marginLeft="50dp"
+
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView_fav"/>
+            </LinearLayout>
+        </LinearLayout>-->
+</LinearLayout>

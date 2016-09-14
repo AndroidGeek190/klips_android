@@ -1,0 +1,234 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_all"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:orientation="vertical"
+        android:id="@+id/ll_edt_profile"
+
+        >
+        <com.erginus.klips.Commons.CircularImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/profilePic"
+            android:src="@drawable/profile_photo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:text="Edit Photo"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edt_userFname"
+        android:hint="First Name"
+        android:drawableLeft="@drawable/user_name"
+        android:paddingLeft="5dp"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:imeOptions="actionNext"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:ems="10"
+
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/profilePic"
+        android:layout_marginTop="10dp" />
+    <requestFocus/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edt_userLname"
+        android:hint="Last Name"
+        android:drawableLeft="@drawable/user_name"
+        android:textColor="@android:color/white"
+        android:ems="10"
+
+        android:paddingLeft="5dp"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:imeOptions="actionNext"
+        android:textSize="16sp"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/profilePic"
+
+         android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edt_email"
+        android:hint="Email"
+        android:drawablePadding="8dp"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:imeOptions="actionDone"
+        android:drawableLeft="@drawable/mail"
+        android:textColor="@android:color/white"
+        android:ems="10"
+
+        android:textColorHint="@android:color/white"
+      android:layout_marginTop="10dp"
+         />
+
+   <!-- <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/phone_contact"
+        android:id="@+id/edt_contact"
+        android:hint="Primary Contact"
+        android:drawablePadding="9dp"
+        android:paddingLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="@android:color/white"
+        android:ems="10"
+        android:textColorHint="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+
+        />-->
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edt_country"
+        android:hint="Country"
+        android:drawablePadding="9dp"
+        android:paddingLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColorHint="@android:color/white"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        />-->
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/spinner_country"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/dropdown"
+        android:popupBackground="@color/lightpurple"
+        android:layout_marginRight="12dp"
+
+        />
+   <!-- <RelativeLayout
+        android:id="@+id/ll_radiogroup_gender"
+        android:layout_width="match_parent"
+        android:layout_height=""
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:orientation="horizontal"
+        >
+
+
+    <RelativeLayout
+        android:id="@+id/img_setting_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp" >
+
+        <ImageView
+            android:id="@+id/image_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/signup_checkbok" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rgrp_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/img_setting_rl" >
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="16sp"
+                android:clickable="false"
+                android:paddingLeft="5dp"
+
+                android:button="@drawable/customize_radio_button"
+                android:textColor="#868686" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="16sp"
+                android:clickable="false"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="5dp"
+                android:button="@drawable/customize_radio_button"
+                android:textColor="#868686" />
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:id="@+id/button_sbmt"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="right"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:drawableRight="@drawable/arrow_left"
+        android:drawablePadding="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center"
+        />
+    </LinearLayout>
+</LinearLayout>

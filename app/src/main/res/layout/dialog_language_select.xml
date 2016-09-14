@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center|center_vertical"
+              android:background="@android:color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom"
+            android:id="@+id/dragView2"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="12dp"
+                android:layout_gravity="top|center_horizontal"
+                android:id="@+id/image_arrow"
+                android:scaleType="fitXY"
+
+                android:adjustViewBounds="true"
+                android:isScrollContainer="true"
+                android:src="@drawable/arrow_down"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dragView3"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"
+
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:layout_marginRight="25dp"
+                    android:padding="5dp"
+                    android:textColor="@android:color/white"
+                    android:text="Arabic"
+                    android:id="@+id/textView_arabic"
+
+                    />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"
+                    android:padding="3dp"
+
+                    android:textColor="@android:color/white"
+                    android:text="English"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:textStyle="bold"
+                    android:id="@+id/textView_english"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

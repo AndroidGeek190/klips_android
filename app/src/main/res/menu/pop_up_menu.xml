@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group
+        android:id="@+id/menu_top"
+
+        >
+    <item
+        android:id="@+id/edit"
+        android:icon="@drawable/edit"
+        android:title="Edit" />
+</group>
+    <group
+        android:id="@+id/menu_center1"
+
+        >
+    <item
+        android:id="@+id/add_quote"
+        android:icon="@drawable/add"
+        android:title="Quote" />
+</group>
+    <group
+        android:id="@+id/menu_center_2"
+
+        >
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/trash"
+        android:title="Trash" />
+</group>
+    <group
+        android:id="@+id/menu_bottom"
+
+        >
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="Share" />
+</group>
+
+
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/box_trending"
+    android:layout_height="105dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/image_product"
+            android:adjustViewBounds="true"
+
+            android:isScrollContainer="true"
+            android:src="@drawable/justin"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:text="Baby - Single"
+                android:id="@+id/textView_title"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@android:color/white"
+                android:text="Description"
+                android:maxLines="2"
+                android:id="@+id/textView_desc"
+                />
+
+        </LinearLayout>
+        <!--<ImageView-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:id="@+id/image_fav"-->
+            <!--android:src="@drawable/my_favort"/>-->
+
+    </LinearLayout>
+</LinearLayout>

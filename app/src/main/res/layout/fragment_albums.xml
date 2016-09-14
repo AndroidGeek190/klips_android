@@ -1,0 +1,38 @@
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg_all"
+    android:layout_gravity="fill_vertical"
+    android:fillViewport="true"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+       <!-- <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView_playlist"
+            android:dividerHeight="4dp"
+            android:divider="@null"
+            android:layout_marginTop="5dp"
+           android:layout_weight="1"
+
+            android:scrollbars="none"
+            />-->
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridview"
+        android:numColumns="3"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="7dp"
+        android:verticalSpacing="7dp"
+        android:scrollbars="none"
+        android:layout_margin="7dp"
+        />
+
+
+</android.support.v4.widget.NestedScrollView>
